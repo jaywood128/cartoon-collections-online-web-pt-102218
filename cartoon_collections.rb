@@ -19,6 +19,7 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
+binding.pry
   if cheese_types.include?(cheese) == true
     cheese_types.first
   else
