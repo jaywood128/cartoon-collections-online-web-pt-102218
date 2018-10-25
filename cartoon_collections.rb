@@ -1,4 +1,3 @@
-require "pry"
 def roll_call_dwarves(dwarves)
 
     dwarves.each_with_index do |name, i| puts "#{i + 1}. #{name}"
@@ -20,7 +19,6 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-binding.pry
   if cheese_types.include?(cheese) == true
     cheese_types.first
   else
