@@ -19,10 +19,13 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.include?(cheese) == true
-    cheese_types.first
-  else
-    nil
-  end
+ cheese.each do |type| 
+binding.pry
+ end
+  # if cheese.include?(cheese_types) == true
+  #   cheese_types.first
+  # else
+  #   nil
+  # end
 end
 end
