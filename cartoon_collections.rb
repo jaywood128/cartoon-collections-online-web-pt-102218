@@ -19,10 +19,10 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.any? { |cheese| return cheese }
+  cheese_types.any? { |cheese| return cheese if true }
 
 else
-  nil
+  return nil
 
 end
 end
