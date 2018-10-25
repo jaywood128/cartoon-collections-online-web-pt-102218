@@ -21,7 +21,7 @@ def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.any? { |cheese| return cheese }
 
-else 
+else
   nil
 
 end
